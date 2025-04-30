@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 124, 58, 237; /* purple-600 */
+  --color-secondary: 16, 185, 129; /* green-500 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply text-gray-200;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-purple-600 to-green-600 rounded-full;
+}
+
+::selection {
+  @apply bg-purple-500/30 text-white;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Add custom cursor effects when Dev Mode is on */
+.dev-mode {
+  cursor: none;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  backdrop-filter: invert(100%);
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out, width 0.2s ease, height 0.2s ease;
+}
