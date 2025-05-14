@@ -36,15 +36,15 @@ const Contact: React.FC = () => {
     { 
       name: 'LinkedIn', 
       icon: <Linkedin size={20} />, 
-      url: 'https://linkedin.com/in/username',
+      url: 'https://www.linkedin.com/in/pedromartins936/',
       color: 'bg-blue-700 hover:bg-blue-800'
     },
-    { 
-      name: 'Instagram', 
-      icon: <Instagram size={20} />, 
-      url: 'https://instagram.com/username',
-      color: 'bg-pink-600 hover:bg-pink-700'
-    },
+    // { 
+    //   name: 'Instagram', 
+    //   icon: <Instagram size={20} />, 
+    //   url: 'https://instagram.com/username',
+    //   color: 'bg-pink-600 hover:bg-pink-700'
+    // },
     { 
       name: 'GitHub', 
       icon: <Github size={20} />, 
@@ -80,8 +80,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-white mb-1">Email</h4>
-                    <a href="mailto:contact@example.com" className="text-gray-300 hover:text-purple-400 transition-colors">
-                      contact@example.com
+                    <a href="mailto:pedroh93601@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
+                      pedro256@gmail.com
                     </a>
                   </div>
                 </div>
@@ -91,9 +91,9 @@ const Contact: React.FC = () => {
                     <Smartphone className="text-green-400" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg font-medium text-white mb-1">Phone</h4>
-                    <a href="tel:+1234567890" className="text-gray-300 hover:text-green-400 transition-colors">
-                      +1 (234) 567-890
+                    <h4 className="text-lg font-medium text-white mb-1">Telefone</h4>
+                    <a href="tel:+5592985232051" className="text-gray-300 hover:text-green-400 transition-colors">
+                      +55 (92) 98523-2051
                     </a>
                   </div>
                 </div>
@@ -103,16 +103,16 @@ const Contact: React.FC = () => {
                     <MapPin className="text-purple-400" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg font-medium text-white mb-1">Location</h4>
+                    <h4 className="text-lg font-medium text-white mb-1">Localização</h4>
                     <p className="text-gray-300">
-                      San Francisco, California
+                      Amazonas,Brasil
                     </p>
                   </div>
                 </div>
               </div>
               
               <div className="mt-10">
-                <h4 className="text-lg font-medium text-white mb-4">Connect on Social Media</h4>
+                <h4 className="text-lg font-medium text-white mb-4">Redes Sociais</h4>
                 <div className="flex space-x-3">
                   {socialLinks.map((social, index) => (
                     <a
@@ -151,7 +151,7 @@ const Contact: React.FC = () => {
           
           <div>
             <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 shadow-xl">
-              <h3 className="text-2xl font-bold mb-6 text-white">Send a Message</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Enviar Mensagem</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
@@ -197,7 +197,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     rows={5}
                     className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white resize-none"
-                    placeholder="Tell me about your project..."
+                    placeholder="Fale sobre seu Projeto..."
                     required
                   ></textarea>
                 </div>
