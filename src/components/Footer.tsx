@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           <div className="text-center md:text-left mb-6 md:mb-0">
             <a href="#home" className="text-xl font-bold flex items-center justify-center md:justify-start">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-                Dev<span className="font-bold">Portfolio</span>
+                Pedroh<span className="font-bold">256</span>
               </span>
             </a>
             <p className="text-gray-400 mt-2 text-sm">
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} DevPortfolio. All rights reserved.
+            &copy; {new Date().getFullYear()} Pedro256. All rights reserved.
           </p>
           
           <div className="flex space-x-6">

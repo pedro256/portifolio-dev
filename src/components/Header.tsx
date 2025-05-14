@@ -17,11 +17,11 @@ const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Principal', href: '#home' },
+    { name: 'Sobre', href: '#about' },
+    { name: 'Projetos', href: '#projects' },
+    { name: 'Habilidades', href: '#skills' },
+    { name: 'Contato', href: '#contact' },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="text-xl font-bold flex items-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-            Dev<span className="font-bold">Portfolio</span>
+            Pedroh<span className="font-bold">256</span>
           </span>
         </a>
 

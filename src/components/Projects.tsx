@@ -18,12 +18,12 @@ const Projects: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-              My Projects
+              Meus Projetos
             </span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
-            A showcase of my recent work, including web and mobile applications.
+            Uma vitrine do meu trabalho recente, incluindo aplicativos web, móveis e outras soluções
           </p>
         </div>
 

@@ -12,19 +12,19 @@ const Skills: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-              My Skills
+              Habilidades
             </span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
-            Technologies and skills I've mastered throughout my career.
+            Tecnologias e habilidades que dominei ao longo da minha carreira.
           </p>
         </div>
 
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/3">
             <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 shadow-xl h-full">
-              <h3 className="text-2xl font-bold mb-6 text-white">Expertise Areas</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Áreas de Especialização</h3>
               
               <div className="space-y-4">
                 {skillCategories.map((category, index) => (
@@ -87,11 +87,7 @@ const Skills: React.FC = () => {
                     <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
                       <div 
                         className={`h-full rounded-full ${
-                          activeCategory === 0 
-                            ? 'bg-gradient-to-r from-purple-500 to-purple-600' 
-                            : activeCategory === 1 
-                              ? 'bg-gradient-to-r from-green-500 to-green-600'
-                              : 'bg-gradient-to-r from-purple-500 to-green-500'
+                          skill.className
                         }`}
                         style={{ width: `${skill.level}%` }}
                       ></div>

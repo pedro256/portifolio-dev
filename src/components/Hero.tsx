@@ -64,24 +64,24 @@ const Hero: React.FC = () => {
       >
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-            Frontend Developer
+            Pedro Henrique Martins
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10">
-          Creating captivating digital experiences with clean code and pixel-perfect designs.
+          Fabrica & Laboratório de Código.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           <a 
             href="#projects" 
             className="px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-700 rounded-md text-white font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
           >
-            View Projects
+            Meus Projetos
           </a>
           <a 
             href="#contact" 
             className="px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 rounded-md text-white font-medium hover:from-green-700 hover:to-green-800 transition-all duration-300 shadow-lg hover:shadow-green-500/25"
           >
-            Get In Touch
+            Entre em  Contato
           </a>
         </div>
       </div>

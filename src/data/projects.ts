@@ -139,37 +139,39 @@ export const projects: Project[] = [
 
 export const skillCategories = [
   {
-    category: 'Frontend',
+    category: 'Desenvolvimento Web',
     skills: [
-      { name: 'React.js', level: 90 },
-      { name: 'Vue.js', level: 85 },
-      { name: 'Angular', level: 75 },
-      { name: 'JavaScript', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'HTML5/CSS3', level: 95 },
-      { name: 'Tailwind CSS', level: 90 },
-      { name: 'Redux', level: 85 },
+      { name: 'React.js', level: 90 , className:"bg-gradient-to-r from-indigo-500 to-indigo-100"},
+      { name: 'Nextjs.js', level: 85 , className:"bg-gradient-to-r from-green-50 to-stone-400"},
+      { name: 'Spring Boot', level:60 , className:"bg-gradient-to-r from-green-500 to-emerald-500"},
+      { name: 'Laravel', level:70, className:"bg-gradient-to-r from-red-500 to-red-300"}
     ]
   },
   {
-    category: 'Mobile',
+    category: 'Desenvolvimento Dispositivos Móveis',
     skills: [
-      { name: 'React Native', level: 90 },
-      { name: 'Flutter', level: 80 },
-      { name: 'iOS Development', level: 70 },
-      { name: 'Android Development', level: 65 },
-      { name: 'Mobile UI/UX', level: 85 },
+      { name: 'React Native', level: 90 , className:"bg-gradient-to-r from-indigo-500 to-blue-500"},
+      // { name: 'Flutter', level: 80, className:"bg-gradient-to-r from-purple-500 to-green-500" },
+      // { name: 'iOS Development', level: 70, className:"bg-gradient-to-r from-purple-500 to-green-500" },
+      { name: 'Android Development', level: 65 , className:"bg-gradient-to-r from-green-500 to-emerald-500"},
+      { name: 'Mobile UI/UX', level: 85, className:"bg-gradient-to-r from-red-500 to-yellow-500" },
     ]
   },
   {
     category: 'Backend',
     skills: [
-      { name: 'Node.js', level: 85 },
-      { name: 'Express', level: 85 },
-      { name: 'MongoDB', level: 80 },
-      { name: 'Firebase', level: 90 },
-      { name: 'GraphQL', level: 75 },
-      { name: 'REST APIs', level: 90 },
+      { name: 'Node.js', level: 85 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
+      { name: 'Express', level: 85 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
+      { name: 'MongoDB', level: 80 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
+      { name: 'Firebase', level: 90 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
+      { name: 'GraphQL', level: 75 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
+      { name: 'REST APIs', level: 90 , className:"bg-gradient-to-r from-purple-500 to-green-500"},
     ]
   }
 ];
+
+                          // activeCategory === 0 
+                          //   ? 'bg-gradient-to-r from-purple-500 to-purple-600' 
+                          //   : activeCategory === 1 
+                          //     ? 'bg-gradient-to-r from-green-500 to-green-600'
+                          //     : 'bg-gradient-to-r from-purple-500 to-green-500'

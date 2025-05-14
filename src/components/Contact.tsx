@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
     { 
       name: 'GitHub', 
       icon: <Github size={20} />, 
-      url: 'https://github.com/username',
+      url: 'https://github.com/pedro256',
       color: 'bg-gray-700 hover:bg-gray-800'
     },
   ];
@@ -59,19 +59,19 @@ const Contact: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500">
-              Get In Touch
+              Entre em  Contato
             </span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
-            Have a project in mind or want to discuss a potential collaboration? Feel free to reach out!
+            Tem um projeto em mente ou quer discutir uma possível colaboração? Entre em contato!
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 shadow-xl h-full">
-              <h3 className="text-2xl font-bold mb-6 text-white">Contact Information</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Contatos</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -156,7 +156,7 @@ const Contact: React.FC = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
-                    Your Name
+                    Seu Nome
                   </label>
                   <input
                     type="text"
@@ -172,7 +172,7 @@ const Contact: React.FC = () => {
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
-                    Your Email
+                    Email
                   </label>
                   <input
                     type="email"
@@ -188,7 +188,7 @@ const Contact: React.FC = () => {
                 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
-                    Your Message
+                    Mensagem
                   </label>
                   <textarea
                     id="message"
@@ -213,10 +213,10 @@ const Contact: React.FC = () => {
                         : 'bg-green-600 text-white cursor-not-allowed'
                   }`}
                 >
-                  {formStatus === 'idle' && 'Send Message'}
-                  {formStatus === 'sending' && 'Sending...'}
-                  {formStatus === 'success' && 'Message Sent!'}
-                  {formStatus === 'error' && 'Error Sending Message'}
+                  {formStatus === 'idle' && 'Enviar Mensagem'}
+                  {formStatus === 'sending' && 'Enviando...'}
+                  {formStatus === 'success' && 'Mensagem Enviada!'}
+                  {formStatus === 'error' && 'Erro ao enviar messagem'}
                 </button>
                 
                 {devMode && (
