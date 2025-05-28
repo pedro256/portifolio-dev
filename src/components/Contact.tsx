@@ -131,11 +131,11 @@ const Contact: React.FC = () => {
               
               {devMode && (
                 <div className="mt-10 pt-6 border-t border-gray-700">
-                  <h4 className="text-sm font-medium text-purple-400 mb-2">Availability</h4>
+                  <h4 className="text-sm font-medium text-purple-400 mb-2">Disponibilidade</h4>
                   <p className="text-sm text-gray-400">
-                    Currently available for freelance projects and full-time opportunities.
+                    Atualmente disponível para projetos freelance e oportunidades de tempo integral.
                   </p>
-                  <div className="mt-4 bg-gray-900/50 p-3 rounded-lg border border-purple-600/30">
+                  {/* <div className="mt-4 bg-gray-900/50 p-3 rounded-lg border border-purple-600/30">
                     <div className="flex justify-between items-center mb-1">
                       <span className="text-sm text-gray-300">Current workload</span>
                       <span className="text-sm text-gray-300">65%</span>
@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
                     <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
                       <div className="h-full rounded-full bg-gradient-to-r from-green-500 to-yellow-500" style={{ width: '65%' }}></div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               )}
             </div>
@@ -221,7 +221,7 @@ const Contact: React.FC = () => {
                 
                 {devMode && (
                   <div className="text-xs text-gray-400 mt-2">
-                    Form submissions are currently simulated for demonstration purposes.
+                    Os envios de formulários são atualmente simulados para fins de demonstração.
                   </div>
                 )}
               </form>

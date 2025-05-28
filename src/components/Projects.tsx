@@ -117,12 +117,12 @@ const Projects: React.FC = () => {
                   <div className="mt-6 pt-6 border-t border-gray-700">
                     <div className="flex items-center mb-3">
                       <Code size={18} className="text-purple-400 mr-2" />
-                      <span className="text-purple-400 font-semibold">Technical Details</span>
+                      <span className="text-purple-400 font-semibold">Detalhes Tecnicos</span>
                     </div>
                     
                     <div className="space-y-3">
                       <div>
-                        <h4 className="text-sm font-medium text-gray-300 mb-1">Tech Stack</h4>
+                        <h4 className="text-sm font-medium text-gray-300 mb-1">Stack</h4>
                         <div className="flex flex-wrap gap-2">
                           {project.techDetails.stack.map((tech, index) => (
                             <span 
@@ -136,7 +136,7 @@ const Projects: React.FC = () => {
                       </div>
                       
                       <div>
-                        <h4 className="text-sm font-medium text-gray-300 mb-1">Key Features</h4>
+                        <h4 className="text-sm font-medium text-gray-300 mb-1">Principais Recursos</h4>
                         <ul className="text-sm text-gray-400 list-disc pl-5">
                           {project.techDetails.features.slice(0, 3).map((feature, index) => (
                             <li key={index}>{feature}</li>
@@ -152,7 +152,7 @@ const Projects: React.FC = () => {
                           className="inline-flex items-center text-sm text-purple-400 hover:text-purple-300 transition-colors"
                         >
                           <Info size={14} className="mr-1" />
-                          View Documentation
+                          Veja Documentação
                         </a>
                       )}
                     </div>
