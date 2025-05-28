@@ -16,7 +16,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
-            Desenvolvedor apaixonado, com atenção aos detalhes e comprometimento em criar experiências excepcionais para o usuário.
+            Com atenção aos detalhes e comprometimento em criar experiências excepcionais para o usuário.
 
           </p>
         </div>
@@ -55,22 +55,23 @@ const About: React.FC = () => {
                       <span className="inline-block w-2 h-2 bg-gradient-to-r from-indigo-500 to-indigo-100 rounded-full mr-2"></span>
                       <span className="text-gray-300">React.js</span>
                     </div>
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center">
                       <span className="inline-block w-2 h-2 bg-gradient-to-r from-red-500 to-yellow-500 rounded-full mr-2"></span>
                       <span className="text-gray-300">Laravel</span>
-                    </div>
+                    </div> */}
                     {/* <div className="flex items-center">
                       <span className="inline-block w-2 h-2 bg-green-400 rounded-full mr-2"></span>
                       <span className="text-gray-300">Tailwind CSS</span>
                     </div> */}
                     <div className="flex items-center">
-                      <span className="inline-block w-2 h-2 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full mr-2"></span>
-                      <span className="text-gray-300">React Native</span>
-                    </div>
-                    <div className="flex items-center">
                       <span className="inline-block w-2 h-2 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full mr-2"></span>
                       <span className="text-gray-300">Spring Boot</span>
                     </div>
+                    <div className="flex items-center">
+                      <span className="inline-block w-2 h-2 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full mr-2"></span>
+                      <span className="text-gray-300">React Native</span>
+                    </div>
+                    
                     
                   </div>
                 </div>

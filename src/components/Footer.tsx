@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               </span>
             </a>
             <p className="text-gray-400 mt-2 text-sm">
-              Bringing creative ideas to life through code.
+              Fabrica & Laboratório de Código.
             </p>
           </div>
           

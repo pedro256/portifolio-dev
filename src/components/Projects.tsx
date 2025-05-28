@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, Code, Info } from 'lucide-react';
-import { projects, Project } from '../data/projects';
+import { projects } from '../data/projects';
 import { useDevMode } from '../context/DevModeContext';
 
 const Projects: React.FC = () => {
